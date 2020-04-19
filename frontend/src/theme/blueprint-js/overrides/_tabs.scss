@@ -1,0 +1,20 @@
+.bp3-tab {
+  @include pt-button-base();
+  @include pt-button-minimal();
+  padding: 0 8px;
+  margin: 0 4px !important;
+  height: 50px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.bp3-tab[aria-selected="true"] {
+  box-shadow: none !important;
+  border-radius: 3px;
+  background-color: $minimal-button-background-color-active;
+  color: $pt-link-color;
+
+  .bp3-dark & {
+    background-color: $dark-minimal-button-background-color-active;
+  }
+}

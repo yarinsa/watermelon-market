@@ -1,0 +1,14 @@
+// remove default anchor link styling of link rows in Table
+td > a,
+.bp3-dark td > a {
+  color: unset;
+  &:hover {
+    color: unset;
+    text-decoration: unset;
+  }
+}
+
+// Remove blueprint default underline decoration for all anchor tags!! annoying.
+a:hover {
+  text-decoration: none;
+}

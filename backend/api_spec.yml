@@ -1,0 +1,11 @@
+
+- GET /users/email-login:
+request:{
+  url : /users/email-login
+  body {
+    email: yarinsasson2@gmail.com
+  }
+  response{
+    
+  }
+  }
