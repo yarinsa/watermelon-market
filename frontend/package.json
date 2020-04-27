@@ -91,7 +91,7 @@
   "scripts": {
     "prestart": "yarn codegen",
     "start": " node  scripts/start.js",
-    "build": "node scripts/build.js",
+    "build": "node scripts/build.js --dest ../backend/public",
     "test": "node scripts/test.js",
     "codegen": "graphql-codegen",
     "codegen:watch": "graphql-codegen --watch"
