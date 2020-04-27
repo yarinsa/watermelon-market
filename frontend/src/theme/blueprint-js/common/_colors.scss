@@ -1,10 +1,9 @@
 // override blueprint/packages/core/src/common/_colors.scss
 
 // // Gray scale
-
 $black: #10161a !default;
 
-$dark-gray1: #425a70; // used text color
+$dark-gray1: #333; // used text color
 // $dark-gray2: #202b33 !default;
 // $dark-gray3: #293742 !default;
 // $dark-gray4: #30404d !default;
@@ -26,6 +25,18 @@ $dark-gray1: #425a70; // used text color
 
 // // Core colors
 
+$purple1: #3f1184;
+$purple2: #6436b6;
+$purple3: #6b39b6;
+$purple4: #8146b9;
+$purple5: #8f4fbc;
+$purple6: #aa88d2;
+$purple7: #e0d2ed;
+
+$light-green1: #21ce99;
+$light-green2: #1daa80;
+$light-green3: #097252;
+
 // $blue1: #0e5a8a !default;
 // $blue2: #106ba3 !default;
 // $blue3: #1070ca; // used as primary
@@ -34,7 +45,7 @@ $dark-gray1: #425a70; // used text color
 
 // $green1: #0a6640 !default;
 // $green2: #0d8050 !default;
-// $green3: #0f9960 !default;
+$green3: #0f9960 !default;
 // $green4: #15b371 !default;
 // $green5: #3dcc91 !default;
 
@@ -46,7 +57,7 @@ $dark-gray1: #425a70; // used text color
 
 // $red1: #a82a2a !default;
 // $red2: #c23030 !default;
-// $red3: #db3737 !default;
+$red3: #db3737 !default;
 // $red4: #f55656 !default;
 // $red5: #ff7373 !default;
 

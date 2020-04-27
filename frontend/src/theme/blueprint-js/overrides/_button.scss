@@ -90,3 +90,12 @@ button:focus {
   // remove ugly outline
   outline: 0;
 }
+
+.bp3-button.bp3-minimal:active,
+.bp3-button.bp3-minimal.bp3-active {
+  background: #3dcc9126;
+}
+
+.bp3-button.bp3-minimal:focus {
+  box-shadow: none;
+}

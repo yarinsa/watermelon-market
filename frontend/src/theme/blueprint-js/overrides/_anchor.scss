@@ -9,6 +9,10 @@ td > a,
 }
 
 // Remove blueprint default underline decoration for all anchor tags!! annoying.
+a {
+  color: $light-green1;
+}
 a:hover {
   text-decoration: none;
+  color: $light-green2;
 }
