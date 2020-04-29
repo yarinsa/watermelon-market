@@ -38,7 +38,7 @@ export const StockListItem: React.FC<StockListItemProps> = ({
     history.push(`/symbol/${symbol}`);
   };
 
-  if (error) console.log(error);
+  // if (error) console.log(error);
 
   return (
     <Root

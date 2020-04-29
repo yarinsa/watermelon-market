@@ -24,7 +24,7 @@ export const StockPage: React.FC<StockPageProps> = ({}) => {
   });
 
   if(data) console.log(data.stock.quote.change)
-  console.log(error)
+  // console.log(error)
   
   return (
     <Root>

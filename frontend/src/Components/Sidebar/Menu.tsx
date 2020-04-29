@@ -10,7 +10,7 @@ export const Menu: React.FC<MenuProps> = ({}) => {
       <MenuListItem exact to="/">
         My Stocks
       </MenuListItem>
-      <MenuListItem to="/setting">Buy Stocks</MenuListItem>
+      <MenuListItem to="/">Buy Stocks</MenuListItem>
     </MenuList>
   );
 };

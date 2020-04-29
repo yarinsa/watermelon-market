@@ -1,6 +1,6 @@
 overwrite: true
 schema:
-  - "http://localhost:3030/graphql"
+  - "/graphql"
 generates:
   # TS Types for out source code:
   ./src/@generated/types.ts:

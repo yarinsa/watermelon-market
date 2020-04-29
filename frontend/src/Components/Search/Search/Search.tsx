@@ -38,7 +38,7 @@ export const Search: React.FC<any> = ({ onSearch }) => {
   if (data && query.length > 0) {
     onSearch(data.searchStock);
   }
-  if (error) console.log(error);
+  // if (error) console.log(error);
 
   return (
     <Root>

@@ -10,7 +10,7 @@ import { HttpLink } from "apollo-link-http";
 
 const cache = new InMemoryCache();
 const link = new HttpLink({
-  uri: "http://localhost:3030/graphql",
+  uri: "/graphql",
   fetch,
 });
 

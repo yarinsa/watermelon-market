@@ -22,7 +22,6 @@ export interface MatchParams {
 const App: React.FC = () => {
   const [stocks, setStocks] = useState(initialStocks);
   const handleSearch = (data: any) => {
-    console.log(data);
     setStocks(data);
   };
 
@@ -37,12 +36,9 @@ const App: React.FC = () => {
         <MainContent>
           {/* {data && <h1>{data.selectedStock}</h1>} */}
           <Switch>
-            <Route path="/about" />
             <Route path={`/symbol/:symbol`}>
               <StockPage />
             </Route>
-            <Route path="/explore" />
-            <Route exact path="/" />
           </Switch>
         </MainContent>
       </Router>
